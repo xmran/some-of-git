@@ -9,5 +9,11 @@
     git checkout -b dev 或 git switch -c <name> 创建并切换分支
     git merge dev 合并分支 （合并dev分支到当前分支）  
     git branch -d dev  删除dev分支
+## 上传代码
+    git pull  拉取远端代码
+    git status 查看状态  
+    git add 添加要提交的代码地址  
+    git commit -m "备注提交代码的功能"  
+    git push 提交代码到远程服务器
   
   
