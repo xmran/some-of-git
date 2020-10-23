@@ -14,6 +14,15 @@
     git status 查看状态  
     git add 添加要提交的代码地址  
     git commit -m "备注提交代码的功能"  
-    git push 提交代码到远程服务器
+    git push 提交代码到远程服务器  
+## 查看日志
+    git log   
+    commit 9cac9ba76574da2167  commit后面的是提交标识（备注）
+## 回滚到指定的版本（hard后面接的是上面标红的ID,也就是想回滚到的版本）  
+    ## 回退到指定版本，不保留原更改代码  
+    git reset --hard e377f60e28c8b84158
+## 回退到指定版本，保留原更改代码，且生成新的提交  
+    git revert e377f60e28c8b84158
+  
   
   
