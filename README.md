@@ -22,7 +22,10 @@
     ## 回退到指定版本，不保留原更改代码  
     git reset --hard e377f60e28c8b84158
 ## 回退到指定版本，保留原更改代码，且生成新的提交  
-    git revert e377f60e28c8b84158
+    git revert e377f60e28c8b84158  
+## 删除分支  
+    git branch -D 分支名 ------删除本地分支  
+    git push origin --delete 分支名--------删除远程分支
   
   
   
